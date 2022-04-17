@@ -66,7 +66,7 @@ A principle of software development in which you document what you want before g
 
 ## TDD Exceptions
 - If you don't already know what the APIs that you're going to be hitting look like, it may be hard to write a valid test
-- If you're not sure what the interaction between the unit you're testing and its dependencies will beww
+- If you're not sure what the interaction between the unit you're testing and its dependencies will be
 
 ## Starting NodeJS Process for Tests
 Starting a NodeJS server could require a fair amount of time so you might boot up your server in a process and then in a separate process start your testing process. But if you can, try to have the process that's running your tests start the server you're testing as well. You can do that using Node APIs. 
