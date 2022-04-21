@@ -79,3 +79,5 @@ A principle of software development in which you document what you want before g
 Starting a NodeJS server could require a fair amount of time so you might boot up your server in a process and then in a separate process start your testing process. But if you can, try to have the process that's running your tests start the server you're testing as well. You can do that using Node APIs. 
 
 This allows Jest and other testing frameworks to instrument all the codebase for code coverage and reporting, etc. You'll also have more transparent errors since all errors will just propagate to your testing process. 
+
+> Internal server errors would be impossible to recognise otherwise. 
