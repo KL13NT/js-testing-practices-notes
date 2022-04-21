@@ -59,6 +59,11 @@ The refactor step makes sure that the code you're writing is maintainable and un
 
 In general, keep your tests as minimal as possible. Doing that will in turn keep your source units minimal and highly focused, leading to more readable and maintainable code.
 
+When do you stop the cycle? For me, based on 3 conditions:
+- In 6 months time, will I be able to understand the code through the test cases?
+- Is the implementation code (that makes tests go green) readable and maintainable?
+- Am I confident that changes I make to this module won't randomly break my project in other areas?
+
 ## RDD - Readme Driven Development
 A principle of software development in which you document what you want before getting down to implementation.
 
