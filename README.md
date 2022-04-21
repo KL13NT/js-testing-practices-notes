@@ -32,6 +32,8 @@ The curve of value that code coverage provides becomes too steep to maintain. Th
 
 ![](Pasted_image_20220405160502.png)
 
+Example: If you had to write test cases for the V8 engine number system, and then you were faced with `0.1 + 0.2 = 0.333`. You can either replace the whole system and possibly cause all other tests to fail just to fix this edge case, or you can make note of it but avoid actually fixing it. Now apply the example to less critical stuff.
+
 ## Unit Test Purity
 Pure unit tests are tests that mock all dependencies and only tests things that are within the module. The problem with it is that you lose a bit of confidence in the tests because it abstracts away potentially offensive dependency implementations with mocks, and you'd need to write extra tests to get that confidence back. 
 
